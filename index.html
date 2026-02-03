@@ -171,7 +171,7 @@
     <script>
         // --- Configuration ---
         // IMPORTANT : Remplacez cette URL par l'URL de votre script Google Apps déployé
-        const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/library/d/1GRA-ykijoUnhZRYJKZxtpasfuwnODFLnJKL6uIteibb_JbhUV4ha9db4/2"; 
+        const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzQxDxr-JfDGoBl3RFRM2VA1oFEpr0gMuxMgUbncz4FejX_JtvX0HkZQil3JPir49cm/exec"; 
 
         // Initialisation de la date au jour actuel
         document.getElementById('dateSeance').valueAsDate = new Date();
@@ -236,7 +236,7 @@
             const btn = document.getElementById('btnSave');
             
             // Vérification URL
-            if (GOOGLE_SCRIPT_URL === "https://script.google.com/macros/library/d/1GRA-ykijoUnhZRYJKZxtpasfuwnODFLnJKL6uIteibb_JbhUV4ha9db4/2") {
+            if (GOOGLE_SCRIPT_URL === "https://script.google.com/macros/s/AKfycbzQxDxr-JfDGoBl3RFRM2VA1oFEpr0gMuxMgUbncz4FejX_JtvX0HkZQil3JPir49cm/exec") {
                 alert("Erreur : L'URL du script Google n'est pas configurée dans le code HTML (ligne ~148).");
                 return;
             }
@@ -288,3 +288,4 @@
 </body>
 
 </html>
+
